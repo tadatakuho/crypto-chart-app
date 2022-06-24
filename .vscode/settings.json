@@ -1,0 +1,13 @@
+{
+  // 使用するフォーマッターをprettierに指定
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // 保存時にフォーマットを行う
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true,
+    "source.addMissingImports": true
+  },
+  // スタイルリント設定(https://zenn.dev/knknk98/articles/422034ea94dc78)
+  "stylelint.validate": ["css", "scss"]
+}
